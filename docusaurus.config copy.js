@@ -111,11 +111,11 @@ const config = {
             items: [
               {
                 label: 'Wiki',
-                to: '/docs/intro',
+                to: '/docs/1-introducao',
               },
             ],
           },
-          {
+     {
             title: 'PlaNAR',
             items: [
               {

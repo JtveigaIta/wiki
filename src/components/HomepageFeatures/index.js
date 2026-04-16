@@ -4,32 +4,53 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Artigo Científico',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Acesse o artigo completo publicado no TechRxiv sobre o projeto PlaNAR.
+        <br /><br />
+        <a
+          href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.176283639.98510048/v1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          📄 Ler artigo
+        </a>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Curso Udemy',
+    Svg: require('@site/static/img/utm_uas_jtveiga.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Curso completo sobre simulação UAS/UTM, drones autônomos e gestão de tráfego aéreo.
+        <br /><br />
+        <a
+          href="https://www.udemy.com/course/planar-sim-uas-utm/?referralCode=C5E5B55EA9F5809D63E0"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          🎓 Acessar curso
+        </a>
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Repositório MRCF',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Código-fonte do projeto MRCF com implementação e experimentos.
+        <br /><br />
+        <a
+          href="https://github.com/JtveigaIta/mrcf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          💻 Ver no GitHub
+        </a>
       </>
     ),
   },
