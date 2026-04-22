@@ -19,18 +19,18 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  url: 'https://wikiplanar.netlify.app',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+ // Set the production url of your site here
+url: 'https://jtveigaita.github.io',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'doramatech', // Usually your GitHub org/user name.
-  projectName: 'wiki-planar', // Usually your repo name.
+// Set the /<baseUrl>/ pathname under which your site is served
+// For GitHub pages deployment, it is often '/<projectName>/'
+baseUrl: '/wiki/',
 
-  onBrokenLinks: 'throw',
+// GitHub pages deployment config.
+organizationName: 'jtveigaita', // seu usuário no GitHub
+projectName: 'wiki', // nome do repositório
+
+onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
