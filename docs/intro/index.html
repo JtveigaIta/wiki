@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-BR" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-introducao/intro" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">PlaNAR — Planning and Resilient Architecture for UTM | Wiki PlaNAR</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://jtveigaita.github.io/wiki/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://jtveigaita.github.io/wiki/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://jtveigaita.github.io/wiki/docs/intro"><meta data-rh="true" property="og:locale" content="pt_BR"><meta data-rh="true" name="docusaurus_locale" content="pt-BR"><meta data-rh="true" name="docsearch:language" content="pt-BR"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="PlaNAR — Planning and Resilient Architecture for UTM | Wiki PlaNAR"><meta data-rh="true" name="description" content="utm #uas #bvlos #simulacao #resiliencia #safety #sms"><meta data-rh="true" property="og:description" content="utm #uas #bvlos #simulacao #resiliencia #safety #sms"><link data-rh="true" rel="icon" href="/wiki/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://jtveigaita.github.io/wiki/docs/intro"><link data-rh="true" rel="alternate" href="https://jtveigaita.github.io/wiki/docs/intro" hreflang="pt-BR"><link data-rh="true" rel="alternate" href="https://jtveigaita.github.io/wiki/docs/intro" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"1. Introdução","item":"https://jtveigaita.github.io/wiki/docs/intro"}]}</script><link rel="alternate" type="application/rss+xml" href="/wiki/blog/rss.xml" title="Wiki PlaNAR RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/wiki/blog/atom.xml" title="Wiki PlaNAR Atom Feed"><link rel="stylesheet" href="/wiki/assets/css/styles.761b036b.css">
+<script src="/wiki/assets/js/runtime~main.db2954a1.js" defer="defer"></script>
+<script src="/wiki/assets/js/main.b0663717.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/wiki/img/logo.svg"><div role="region" aria-label="Pular para o conteúdo principal"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Pular para o conteúdo principal</a></div><nav aria-label="Navegação principal" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Alternar painel de navegação" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/wiki/"><div class="navbar__logo"><img src="/wiki/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/wiki/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Wiki PlaNAR</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/wiki/docs/intro">Wiki</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/doramatech/wikiplanar" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="modo do sistema" aria-label="Mudar entre modo claro e escuro (modo do sistema está ativo)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Voltar para o topo" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Painel lateral de documentos" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/wiki/docs/intro"><span title="1. Introdução" class="linkLabel_WmDU">1. Introdução</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wiki/docs/visao-geral-planar/visao-geral"><span title="2. Visão Geral do Planar" class="linkLabel_WmDU">2. Visão Geral do Planar</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wiki/docs/base-normativa/normas_utm"><span title="3. Base Normativa do UTM" class="linkLabel_WmDU">3. Base Normativa do UTM</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wiki/docs/arquitetura-simulador/arquitetura"><span title="4. Arquitetura do Simulador" class="linkLabel_WmDU">4. Arquitetura do Simulador</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wiki/docs/modelos-conceituais/modelos-conceituais"><span title="5. Modelos Conceituais" class="linkLabel_WmDU">5. Modelos Conceituais</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wiki/docs/biblioteca-simulador/biblioteca-simulador"><span title="6. Biblioteca do Simulador" class="linkLabel_WmDU">6. Biblioteca do Simulador</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/wiki/docs/curso-formacao/ementa"><span title="7. Curso de Formação" class="categoryLinkLabel_W154">7. Curso de Formação</span></a><button aria-label="Expandir a categoria &#x27;7. Curso de Formação&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wiki/docs/tarefas/contribuir"><span title="8. Tarefas para Fixação" class="linkLabel_WmDU">8. Tarefas para Fixação</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wiki/docs/como-contribuir/contribuir"><span title="9. Como Contribuir com PLANAR" class="linkLabel_WmDU">9. Como Contribuir com PLANAR</span></a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Trilha"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Página Inicial" class="breadcrumbs__link" href="/wiki/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">1. Introdução</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">Nesta página</button></div><div class="theme-doc-markdown markdown"><header><h1>PlaNAR — Planning and Resilient Architecture for UTM</h1></header>
+<p>#planar #utm #uas #bvlos #simulacao #resiliencia #safety #sms<br>
+<!-- -->#sistemas-multiagentes #mas #ai #falhas #replanejamento<br>
+<!-- -->#br-utm #icao #anac #decea #astm #doc10019<br>
+<!-- -->#engenharia-de-sistemas #simulador #pesquisa-aplicada</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="visão-geral">Visão Geral<a href="#visão-geral" class="hash-link" aria-label="Link direto para Visão Geral" title="Link direto para Visão Geral" translate="no">​</a></h2>
+<p>O <strong>PlaNAR (Planning and Resilient Architecture for UTM)</strong> é um projeto de <strong>pesquisa, desenvolvimento e documentação técnica</strong> voltado à criação de um <strong>simulador de Gerenciamento de Tráfego Aéreo Não Tripulado (UTM)</strong>, com foco em:</p>
+<ul>
+<li class="">operações <strong>BVLOS</strong>,</li>
+<li class=""><strong>resiliência operacional</strong>,</li>
+<li class=""><strong>gestão de falhas</strong>,</li>
+<li class=""><strong>replanejamento dinâmico de missões</strong>,</li>
+<li class="">integração entre <strong>drones autônomos, operadores, provedores UTM (USS) e autoridades</strong>.</li>
+</ul>
+<p>Esta Wiki constitui a <strong>documentação oficial do projeto PlaNAR</strong>, funcionando simultaneamente como:</p>
+<ul>
+<li class="">📘 documentação técnica do simulador</li>
+<li class="">🧪 diário de bordo do desenvolvimento</li>
+<li class="">📚 biblioteca de modelos conceituais</li>
+<li class="">🎓 base oficial de cursos e minicursos</li>
+<li class="">📄 repositório de produção científica e técnica</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="objetivos-do-projeto">Objetivos do Projeto<a href="#objetivos-do-projeto" class="hash-link" aria-label="Link direto para Objetivos do Projeto" title="Link direto para Objetivos do Projeto" translate="no">​</a></h2>
+<p>Os principais objetivos do PlaNAR são:</p>
+<ul>
+<li class="">Desenvolver um <strong>ambiente de simulação UTM modular e extensível</strong></li>
+<li class="">Permitir a <strong>avaliação de Safety, SMS, Resiliência e Falhas</strong> em operações UAS</li>
+<li class="">Apoiar <strong>pesquisa acadêmica, ensaios institucionais e capacitação técnica</strong></li>
+<li class="">Servir como base para <strong>testes operacionais, análise regulatória e estudos prospectivos</strong></li>
+<li class="">Documentar decisões, hipóteses e aprendizados de forma <strong>reprodutível e transparente</strong></li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="escopo-da-wiki">Escopo da Wiki<a href="#escopo-da-wiki" class="hash-link" aria-label="Link direto para Escopo da Wiki" title="Link direto para Escopo da Wiki" translate="no">​</a></h2>
+<p>Esta Wiki cobre, de forma integrada:</p>
+<ul>
+<li class="">Fundamentos de <strong>UTM e ATM aplicados a UAS</strong></li>
+<li class="">Normas nacionais e internacionais (<strong>ICAO, ASTM, ANAC, DECEA</strong>)</li>
+<li class="">Arquitetura do simulador PlaNAR</li>
+<li class="">Modelos conceituais (estilo ASA)</li>
+<li class="">Biblioteca de modelos e componentes</li>
+<li class="">Desenvolvimento de software e engenharia</li>
+<li class="">Experimentos, estudos de caso e ensaios</li>
+<li class="">Conteúdo didático e formação profissional</li>
+</ul>
+<blockquote>
+<p><strong>Nota:</strong> A Wiki é um artefato vivo. Seu conteúdo evolui conforme o projeto avança.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="estrutura-da-documentação">Estrutura da Documentação<a href="#estrutura-da-documentação" class="hash-link" aria-label="Link direto para Estrutura da Documentação" title="Link direto para Estrutura da Documentação" translate="no">​</a></h2>
+<p>A documentação está organizada em capítulos numerados para facilitar leitura progressiva:</p>
+<ol>
+<li class=""><strong>Início</strong> — visão geral e links essenciais</li>
+<li class=""><strong>Diário de Bordo</strong> — decisões, hipóteses e aprendizados</li>
+<li class=""><strong>Visão Geral do PlaNAR</strong> — objetivos, escopo e roadmap</li>
+<li class=""><strong>UTM e Base Normativa</strong> — normas, CONOPS e regulamentação</li>
+<li class=""><strong>Arquitetura do Simulador</strong> — visão sistêmica e integração</li>
+<li class=""><strong>Modelos Conceituais</strong> — fundamentos da simulação</li>
+<li class=""><strong>Biblioteca do Simulador</strong> — componentes e APIs</li>
+<li class=""><strong>Desenvolvimento e Engenharia</strong> — práticas e padrões</li>
+<li class=""><strong>Experimentos e Estudos de Caso</strong> — validações e análises</li>
+<li class=""><strong>Curso e Formação</strong> — conteúdo didático e capacitação</li>
+<li class=""><strong>Publicações e Eventos</strong> — produção técnica e científica</li>
+<li class=""><strong>Parcerias e Ecossistema</strong> — colaborações institucionais</li>
+<li class=""><strong>Como Contribuir</strong> — participação e governança</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ecossistema-planar">Ecossistema PlaNAR<a href="#ecossistema-planar" class="hash-link" aria-label="Link direto para Ecossistema PlaNAR" title="Link direto para Ecossistema PlaNAR" translate="no">​</a></h2>
+<p>O PlaNAR é composto por três sistemas integrados:</p>
+<table><thead><tr><th>Sigla</th><th>Nome</th><th>Função</th></tr></thead><tbody><tr><td><strong>PlaNAR UTM</strong></td><td>Núcleo do Simulador</td><td>Infraestrutura central que integra operadores, drones, provedores UTM, conflitos e registros.</td></tr><tr><td><strong>MRCF</strong></td><td>Mission Replanning and Control Framework</td><td>Replanejamento tático, análise de rotas e adaptação dinâmica de missões.</td></tr><tr><td><strong>MIRF</strong></td><td>Módulo de Injeção e Recuperação de Falhas</td><td>Emulação de falhas e estratégias de recuperação para avaliação da resiliência.</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="links-essenciais">Links Essenciais<a href="#links-essenciais" class="hash-link" aria-label="Link direto para Links Essenciais" title="Link direto para Links Essenciais" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="código-e-documentação">Código e Documentação<a href="#código-e-documentação" class="hash-link" aria-label="Link direto para Código e Documentação" title="Link direto para Código e Documentação" translate="no">​</a></h3>
+<ul>
+<li class="">
+<p>🌐 Wiki / GitHub Pages:<br>
+<a href="https://jtveigaita.github.io/planar/" target="_blank" rel="noopener noreferrer" class="">https://jtveigaita.github.io/planar/</a></p>
+</li>
+<li class="">
+<p>💻 Repositório MRCF:<br>
+<a href="https://github.com/JtveigaIta/mrcf" target="_blank" rel="noopener noreferrer" class="">https://github.com/JtveigaIta/mrcf</a></p>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="produção-científica">Produção Científica<a href="#produção-científica" class="hash-link" aria-label="Link direto para Produção Científica" title="Link direto para Produção Científica" translate="no">​</a></h3>
+<ul>
+<li class="">
+<p>📄 Artigo MRCF (TechRxiv):<br>
+<a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.176283639.98510048" target="_blank" rel="noopener noreferrer" class="">https://www.techrxiv.org/doi/full/10.36227/techrxiv.176283639.98510048</a></p>
+</li>
+<li class="">
+<p>📦 Zenodo (repositório):<br>
+<a href="https://doi.org/10.5281/zenodo.17538046" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.5281/zenodo.17538046</a></p>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="formação-e-divulgação">Formação e Divulgação<a href="#formação-e-divulgação" class="hash-link" aria-label="Link direto para Formação e Divulgação" title="Link direto para Formação e Divulgação" translate="no">​</a></h3>
+<ul>
+<li class="">
+<p>🎧 Podcast Minicurso UTM:<br>
+<a href="https://open.spotify.com/show/1JZtT0xjPKblUvoDTa4eNA" target="_blank" rel="noopener noreferrer" class="">https://open.spotify.com/show/1JZtT0xjPKblUvoDTa4eNA</a></p>
+</li>
+<li class="">
+<p>▶️ Vídeo Minicurso (teste):<br>
+<a href="https://youtu.be/FUlvEIXYhcg" target="_blank" rel="noopener noreferrer" class="">https://youtu.be/FUlvEIXYhcg</a></p>
+</li>
+<li class="">
+<p>📝 Cadastro no Curso:<br>
+<a href="https://forms.gle/g8Mowf2w3gNkPYAJA" target="_blank" rel="noopener noreferrer" class="">https://forms.gle/g8Mowf2w3gNkPYAJA</a></p>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="institucional-e-eventos">Institucional e Eventos<a href="#institucional-e-eventos" class="hash-link" aria-label="Link direto para Institucional e Eventos" title="Link direto para Institucional e Eventos" translate="no">​</a></h3>
+<ul>
+<li class="">
+<p>🛰️ Ensaios BR-UTM (DECEA):<br>
+<a href="https://br-utm.decea.mil.br/" target="_blank" rel="noopener noreferrer" class="">https://br-utm.decea.mil.br/</a></p>
+</li>
+<li class="">
+<p>🎤 Congresso SIGE:<br>
+<a href="https://youtu.be/0R38LGyPSgI" target="_blank" rel="noopener noreferrer" class="">https://youtu.be/0R38LGyPSgI</a></p>
+</li>
+<li class="">
+<p>🧪 Revisor ENCITA / ITAEx:<br>
+<a href="https://paic.ita.br/evento/encita-2025/" target="_blank" rel="noopener noreferrer" class="">https://paic.ita.br/evento/encita-2025/</a></p>
+</li>
+<li class="">
+<p>🤝 Parceria — Ganesha Aviação:<br>
+<a href="https://www.ganeshaaviacao.com.br" target="_blank" rel="noopener noreferrer" class="">https://www.ganeshaaviacao.com.br</a></p>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="governança-e-autoria">Governança e Autoria<a href="#governança-e-autoria" class="hash-link" aria-label="Link direto para Governança e Autoria" title="Link direto para Governança e Autoria" translate="no">​</a></h2>
+<p><strong>Fundador e Pesquisador Responsável</strong><br>
+<strong>Jackson Tavares Veiga</strong></p>
+<ul>
+<li class="">Mestre em Ciências</li>
+<li class="">Doutorando em Sistemas de Defesa e Aeroespaciais (ITA)</li>
+<li class="">Pesquisador em UAS, Simulação, Sistemas Multiagentes, Defesa e ATM/UTM</li>
+</ul>
+<p>🔗 Currículo Lattes:<br>
+<a href="https://lattes.cnpq.br/8939850014070884" target="_blank" rel="noopener noreferrer" class="">https://lattes.cnpq.br/8939850014070884</a></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="observações-finais">Observações Finais<a href="#observações-finais" class="hash-link" aria-label="Link direto para Observações Finais" title="Link direto para Observações Finais" translate="no">​</a></h2>
+<p>O PlaNAR não é apenas um simulador, mas um <strong>ambiente de experimentação científica e técnica</strong>, concebido para apoiar:</p>
+<ul>
+<li class="">pesquisa acadêmica rigorosa,</li>
+<li class="">desenvolvimento tecnológico,</li>
+<li class="">formação profissional,</li>
+<li class="">tomada de decisão informada em UTM.</li>
+</ul>
+<blockquote>
+<p><strong>Use esta Wiki como manual, laboratório e registro histórico do projeto.</strong></p>
+</blockquote></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/doramatech/2dm-wiki/tree/main/docs/1-introducao/intro.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Editar esta página</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Páginas de documento"><a class="pagination-nav__link pagination-nav__link--next" href="/wiki/docs/visao-geral-planar/visao-geral"><div class="pagination-nav__sublabel">Próxima</div><div class="pagination-nav__label">2. Visão Geral do Planar</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#visão-geral" class="table-of-contents__link toc-highlight">Visão Geral</a></li><li><a href="#objetivos-do-projeto" class="table-of-contents__link toc-highlight">Objetivos do Projeto</a></li><li><a href="#escopo-da-wiki" class="table-of-contents__link toc-highlight">Escopo da Wiki</a></li><li><a href="#estrutura-da-documentação" class="table-of-contents__link toc-highlight">Estrutura da Documentação</a></li><li><a href="#ecossistema-planar" class="table-of-contents__link toc-highlight">Ecossistema PlaNAR</a></li><li><a href="#links-essenciais" class="table-of-contents__link toc-highlight">Links Essenciais</a><ul><li><a href="#código-e-documentação" class="table-of-contents__link toc-highlight">Código e Documentação</a></li><li><a href="#produção-científica" class="table-of-contents__link toc-highlight">Produção Científica</a></li><li><a href="#formação-e-divulgação" class="table-of-contents__link toc-highlight">Formação e Divulgação</a></li><li><a href="#institucional-e-eventos" class="table-of-contents__link toc-highlight">Institucional e Eventos</a></li></ul></li><li><a href="#governança-e-autoria" class="table-of-contents__link toc-highlight">Governança e Autoria</a></li><li><a href="#observações-finais" class="table-of-contents__link toc-highlight">Observações Finais</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Wiki</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wiki/docs/intro">Wiki</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">PlaNAR</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/JtveigaIta/mrcf" target="_blank" rel="noopener noreferrer" class="footer__link-item">MRCF Framework<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/doramatech/wikiplanar" target="_blank" rel="noopener noreferrer" class="footer__link-item">Wiki Documentation<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/JtveigaIta/planar" target="_blank" rel="noopener noreferrer" class="footer__link-item">Core Platform<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Site Oficial</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://auteron.com.br" target="_blank" rel="noopener noreferrer" class="footer__link-item">Auteron<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Apoiadores</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://br-utm.decea.mil.br/" target="_blank" rel="noopener noreferrer" class="footer__link-item">BR-UTM (DECEA)<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="http://www.ita.br/" target="_blank" rel="noopener noreferrer" class="footer__link-item">ITA<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 PlaNAR Project.</div></div></div></footer></div>
+</body>
+</html>

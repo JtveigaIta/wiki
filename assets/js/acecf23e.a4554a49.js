@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunk_2_dm_wiki=globalThis.webpackChunk_2_dm_wiki||[]).push([[1903],{1912(i){i.exports=JSON.parse('{"blogBasePath":"/wiki/blog","blogTitle":"Blog","authorsListPath":"/wiki/blog/authors"}')}}]);

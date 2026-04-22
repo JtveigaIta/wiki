@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunk_2_dm_wiki=globalThis.webpackChunk_2_dm_wiki||[]).push([[5279],{2495(a){a.exports=JSON.parse('{"metadata":{"permalink":"/wiki/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
