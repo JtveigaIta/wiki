@@ -173,6 +173,21 @@ https://lattes.cnpq.br/8939850014070884
 
 ---
 
+### Atividades
+- [Simulação Aplicada MAS e UAS - Apresentação](https://docs.google.com/presentation/d/1sjLQfnh0pvWi3VFkuj8VgPYX34ATXWSdk3V44qpamgA/edit?usp=sharing)
+- [Tutorial de Git e Github - Apresentação](https://docs.google.com/presentation/d/1veZEDPTqice1D5iaYEoSDYemFwgPU7Qh/edit?usp=sharing&ouid=101618243711347658977&rtpof=true&sd=true)
+
+---
+
+## Registros de Iniciação Científica (IC)
+
+Nesta seção, manteremos o histórico de evolução, atividades e registros de acompanhamento do projeto de Iniciação Científica.
+
+### Equipe Spaceline - Fatec
+- Nenhum registro no momento
+
+---
+
 ## Links Relacionados
 
 - 🎧 Podcast do Minicurso:  
