@@ -181,6 +181,10 @@ https://lattes.cnpq.br/8939850014070884
 - [Material Complementar UML](https://docs.google.com/presentation/d/1UApr2ec3DKdG63uSpnPT9ao3SGUpYAzABjQy0wJMpCE/edit?usp=sharing)
 
 ---
+### Material Complementar para Apoio a (IC)
+- [Resumo sobre BT e MAS - Explicando os dois exercícios do artigo](https://drive.google.com/file/d/1qwhyajynnCgjlYHas6aYa-tIv3i4RlW1/view?usp=drive_link)
+- [Resumo sobre Metodologia Científica - Como Fazer uma Revisão Bibliografica](https://drive.google.com/file/d/1vm57A_-s-n9tIruRKKomy_261lb1zv_6/view?usp=sharing)
+---
 
 ## Registros de Iniciação Científica (IC)
 
