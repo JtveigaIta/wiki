@@ -16,6 +16,16 @@
 
 The regulatory ecosystem for **Unmanned Aircraft Systems (UAS)** and **Unmanned Traffic Management (UTM)** is organized as a hierarchical structure that connects international aviation governance, operational frameworks, risk assessment methodologies, safety management practices, and cybersecurity standards. This structure provides the normative foundation adopted by PlaNAR to support the design, simulation, validation, and assessment of resilient and interoperable UTM environments.
 
+## Regulatory Framework Overview
+
+<p align="center">
+  <img src="img/PlaNARWiki_2RegulationBibReviewDOC.png"
+       alt="Hierarchical UTM Regulatory and Standards Framework"
+       width="1000">
+</p>
+
+**Figure 1.** Hierarchical regulatory, operational, safety and cybersecurity framework adopted by PlaNAR for UAS and UTM ecosystems.
+
 ---
 
 # 1. International Regulatory Level
